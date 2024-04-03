@@ -1,7 +1,7 @@
 import httpx
 import requests
 
-url = "http://127.0.0.1:8000/load-emails"  # replace 'your-endpoint' with the real one
+url = "http://127.0.0.1:8000/load-emails"
 
 data = {
     "email":'suluguni1988@gmail.com',
