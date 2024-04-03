@@ -12,7 +12,6 @@ response = httpx.post(url, json=data)
 
 print(f'Status Code: {response.status_code}')
 if response.content:
-    # Attempt to print JSON only if there is content in the response
     try:
         print('JSON Response: ', response.json())
     except ValueError:
