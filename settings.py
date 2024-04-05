@@ -17,7 +17,7 @@ EMAIL_PROVIDERS = {
 }
 
 #MySQL Database
-db_Host ='emaildbserver.mysql.database.azure.com'
-db_User ='mailadmin'
-db_Password ='Wparolj123!'
-db_Name ='maildb1'
+db_Host =''
+db_User =''
+db_Password =''
+db_Name =''
