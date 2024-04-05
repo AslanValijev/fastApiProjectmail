@@ -1,7 +1,7 @@
 import requests
 
 def test_get_email_by_id():
-    response = requests.get("http://127.0.0.1:8000/emails/3")
+    response = requests.get("http://127.0.0.1:8000/emails/<id>")
     data = response.json()
 
     # Ensure that there are at least 4 elements
