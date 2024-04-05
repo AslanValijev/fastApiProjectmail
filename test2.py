@@ -4,10 +4,8 @@ def test_get_email_by_id():
     response = requests.get("http://127.0.0.1:8000/emails/<id>")
     data = response.json()
 
-    # Ensure that there are at least 4 elements
     assert len(data) >= 4
 
-    # Extract email details
     reciev_date = data[1]
     sender_email = data[2]
     recipient_email = data[7]
