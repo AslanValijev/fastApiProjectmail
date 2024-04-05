@@ -4,8 +4,8 @@ import requests
 url = "http://127.0.0.1:8000/load-emails"
 
 data = {
-    "email":'suluguni1988@gmail.com',
-    "password":'mmxz xsqq zuzu uqnd',
+    "email":'',
+    "password":'',
 }
 
 response = httpx.post(url, json=data)
